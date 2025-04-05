@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0 16px;
+  }
+  
+  .menu-button {
+    display: none;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    
+    .mobile-menu {
+      display: block;
+    }
+  }
+  

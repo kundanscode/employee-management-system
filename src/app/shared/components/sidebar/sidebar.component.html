@@ -1,0 +1,13 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" [opened]="true" class="sidenav own-style"
+      [class.expanded]="isExpanded" (mouseenter)="toggleExpand(true)" (mouseleave)="toggleExpand(false)">
+      <div class="menu">
+        <a *ngFor="let item of menuItems" class="menu-item" [routerLink]="item?.route" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }">
+          <mat-icon>{{ item.icon }}</mat-icon>
+          <span *ngIf="isExpanded">{{ item.name }}</span>
+        </a>
+      </div>
+    </mat-sidenav>
+  </mat-sidenav-container>
+  

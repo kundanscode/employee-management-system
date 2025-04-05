@@ -1,0 +1,52 @@
+/* sidebar.component.scss */
+.sidenav-container {
+    height: 100vh;
+    position: absolute;
+  }
+  
+  .sidenav {
+    width: 70px;
+    overflow: hidden;
+    transition: width 0.3s;
+    background: #333;
+    color: white;
+  }
+  
+  .sidenav.expanded {
+    width: 200px;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+  }
+
+  .own-style{
+    border-top-right-radius: 0px;
+  }
+
+  .active {
+    text-underline-offset: 0.4rem;
+    text-decoration: underline;
+    transition: all 0.3s;
+    text-decoration-color: rgba(20, 116, 182, 1);
+    color: rgba(20, 116, 182, 1) !important;
+  }
+  

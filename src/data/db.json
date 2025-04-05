@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "token": "57799440-9e7b-4fdf-8c14-3696369b1d77"
+    },
+    {
+      "id": 2,
+      "username": "kundan",
+      "password": "558571a68678d189523800c47deae3e74f431a6e11e7e48b937c8a1067d151fc",
+      "token": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6"
+    },
+    {
+      "id": 3,
+      "username": "jane_smith",
+      "password": "qwerty789",
+      "token": "p6o5n4m3l2k1-j0i9h8g7f6e5d4c3b2a1"
+    },
+    {
+      "id": 4,
+      "username": "mike_brown",
+      "password": "abc123def",
+      "token": "z9y8x7w6v5u4t3s2r1q0p9o8n7m6l5k4j3i2h1g0f1e2d3c4b5a6"
+    },
+    {
+      "id": 5,
+      "username": "sarah_johnson",
+      "password": "123456789",
+      "token": "f0e1d2c3b4a5-98j7i6h5g4f3e2d1c0b9a8"
+    }
+  ],
+
+  "employees": [
+    {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "department": "Sales",
+      "doj": "2022-01-01",
+      "mobile": "1234567890",
+      "employee_code": "EMP001",
+      "location": "New York",
+      "uuid": "123e4567-e89b-12d3-a456-426614174000"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "department": "Marketing",
+      "doj": "2022-02-01",
+      "mobile": "0987654321",
+      "employee_code": "EMP002",
+      "location": "Los Angeles",
+      "uuid": "123e4567-e89b-12d3-a456-426614174001"
+    },
+    {
+      "id": 3,
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "department": "IT",
+      "doj": "2022-03-01",
+      "mobile": "5555555555",
+      "employee_code": "EMP003",
+      "location": "Chicago",
+      "uuid": "123e4567-e89b-12d3-a456-426614174002"
+    },
+    {
+      "id": 4,
+      "firstname": "Emily",
+      "lastname": "Davis",
+      "department": "Finance",
+      "doj": "2022-04-01",
+      "mobile": "4444444444",
+      "employee_code": "EMP004",
+      "location": "San Francisco",
+      "uuid": "123e4567-e89b-12d3-a456-426614174003"
+    }
+  ]
+}
